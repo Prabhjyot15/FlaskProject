@@ -28,7 +28,7 @@ pipeline {
                  }
     stage('build') {
       steps {
-        sh 'python --version'
+        echo "Build Complete"
       }
     }
 
